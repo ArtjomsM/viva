@@ -17,6 +17,10 @@ p {
     background-color: black;
 }
 
+main {
+    min-height: 500px;
+}
+
 header {
     text-shadow: 1px 1px 1px black;
 }
