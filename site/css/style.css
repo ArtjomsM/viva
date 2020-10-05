@@ -44,6 +44,28 @@ header p {
     padding: 0;
 }
 
+@media only screen and (max-width:500px) {
+    .font-sm p {
+        font-size: 1.3rem;
+        margin-bottom: 5px;
+    }
+
+    .font-sm h5 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width:500px) and (max-width: 700px) {
+    .font-sm p {
+        font-size: 2rem;
+    }
+
+    .font-sm h5 {
+        font-size: 3.3rem;
+    }
+}
+
 .foto-link {
     height: 300px;
     background-position: center;
@@ -103,6 +125,10 @@ header p {
     font-size: 1.2rem;
 }
 
+.font-size-0_8{
+    font-size: 0.8rem;
+}
+
 .font-size-0_7 {
     font-size: 0.7rem;
 }
@@ -139,7 +165,7 @@ header p {
 
 .bg-street {
     background-image: url('https://vivaexpeditions.com/assets/Blog/FeaturedImages/_resampled/CroppedFocusedImageWyIyODUiLCIyNjQiLCJ4IiwzMF0/Joe-Tabacca-shutterstock-800.jpg');
-    background-size: 100% 180px;
+    background-size: 100% 150px;
     background-repeat: no-repeat;
     background-position: top;
 }
@@ -160,6 +186,11 @@ header p {
     width: 50%;
 }
 
+.icon {
+    width: 27px;
+    height: 27px;
+}
+
 ul li {
     line-height: 1.7;
 }
@@ -178,7 +209,8 @@ footer .bg-light::before {
     left: 0;
     bottom: 90px;
     width: 100%;
-    height: 0.5px;
-    box-shadow: 0px 0 10px rgba(0, 0, 0, 0.8);
+    height: 0.4px;
+    background-color: rgba(143, 143, 143, 0.5);
+    box-shadow: 0px 0 5px rgba(0, 0, 0, 0.8);
     z-index: 100;
   }
